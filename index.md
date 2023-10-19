@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero0.png
+# heroImage: /hero0.png
 actions:
   - text: 向导
     link: /guides/
