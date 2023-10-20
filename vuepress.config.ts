@@ -35,9 +35,9 @@ export default defineUserConfig({
     theme: defaultTheme({
         colorMode: 'light',
         logo: '/hero.png',
-        repo: 'mojodojodev/mojodojo.dev',
+        repo: 'llango/mojolang',
         repoLabel: 'GitHub',
-        docsRepo: 'mojodojodev/mojodojo.dev',
+        docsRepo: 'llango/mojolang',
         docsBranch: 'main',
         lastUpdated: false,
         locales: {
