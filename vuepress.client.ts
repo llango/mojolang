@@ -1,5 +1,6 @@
 import { defineClientConfig } from '@vuepress/client'
 import BlogPosts from './components/BlogPosts.vue';
+import Projects from './components/Projects.vue';
 import ThisWeek from './components/ThisWeek.vue';
 
 export default defineClientConfig({
@@ -83,6 +84,7 @@ export default defineClientConfig({
         })
 
         app.component('BlogPosts', BlogPosts)
+        app.component('Projects', Projects)
         app.component('ThisWeek', ThisWeek)
     },
     setup() { },

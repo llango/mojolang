@@ -49,7 +49,8 @@ export default defineUserConfig({
                     { text: 'Mojo团队问答', link: '/mojo-team-answers' },
                     { text: 'Mojo周报', link: '/this-week-in-mojo/' },
                     { text: '博客', link: '/blog/' },
-                    { text: 'Is Mojo for Me?', link: '/is-mojo-for-me' },
+                    { text: '项目', link: '/projects/' },
+                    { text: 'Mojo适合我吗?', link: '/is-mojo-for-me' },
                 ],
                 sidebar: [
                     {
@@ -175,6 +176,16 @@ export default defineUserConfig({
                             '/blog/2023-07-17-rust-or-mojo-ai.md',
                             '/blog/2023-05-22-mojo-first-impressions.md',
                             '/blog/2023-05-08-why-use-mojo.md',
+                        ]
+                    },
+                    {
+                        text: '项目',
+                        link: '/projects/',
+                        collapsible: true,
+                        children: [
+                            '/projects/2023-07-17-rust-or-mojo-ai.md',
+                            '/projects/2023-05-22-mojo-first-impressions.md',
+                            '/projects/2023-05-08-why-use-mojo.md',
                         ]
                     },
                     "/is-mojo-for-me.md",
