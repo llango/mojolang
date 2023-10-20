@@ -45,7 +45,7 @@ export default defineUserConfig({
                 selectLanguageName: 'English',
                 editLinkText: '在GitHub编辑该页',
                 navbar: [
-                    { text: '向导', link: '/guides/' },
+                    { text: '指南', link: '/guides/' },
                     { text: 'Mojo团队问答', link: '/mojo-team-answers' },
                     { text: 'Mojo周报', link: '/this-week-in-mojo/' },
                     { text: '博客', link: '/blog/' },
@@ -54,7 +54,7 @@ export default defineUserConfig({
                 ],
                 sidebar: [
                     {
-                        text: '想到',
+                        text: '指南',
                         link: '/guides/',
                         collapsible: true,
                         children: [
