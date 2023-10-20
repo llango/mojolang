@@ -24,7 +24,7 @@ npm run dev
 
 它是用目前处于测试阶段的 [VuePress V2](https://v2.vuepress.vuejs.org/guide/getting-started.html) 构建的，主要配置来自 [vuepresss.config.ts](vuepress.config.ts)，而 [vuepress.client.ts](vuepress.client.ts) 包含客户端配置，例如重定向以保持旧的社交媒体链接处于活动状态，CSS 和静态图像可以是在 [.vuepress/public](.vuepress/public) 和 [.vuepress/styles](.vuepress/styles) 中修改。
 
-主页来自[index.md](index.md)，我从https://nushell.sh获取了一些自定义Vue代码，用于在[components]中生成博客链接，并在[guides/index.md](guides/index.md)中生成表格。
+主页来自[index.md](index.md)，我从[https://nushell.sh](https://nushell.sh) 获取了一些自定义Vue代码，用于在[components](components/BlogPosts.vue)中生成博客链接，并在[guides/index.md](guides/index.md)中生成表格。
 
 语法高亮来自 VS Code 使用的 shiki，Mojo 语言的定义位于[syntax/mojo.tmLanguage.json](syntax/mojo.tmLanguage.json) 中，感谢 [crisadamo](https://github.com/crisadamo/mojo-lang-syntax)。
 
