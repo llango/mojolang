@@ -11,22 +11,23 @@ npm i
 npm run dev
 ```
 
-## 贡献向导
-If you're unable to complete these steps, feel free to raise a pull request with just the `.ipynb`
+## 贡献指南
+如果您无法完成这些步骤，请随时提出拉取`.ipynb`请求：
 
-- Install [Jupyter](https://jupyter.org/install) to enable converting notebooks
-- Put your `.ipynb` in the desired folder in `guides`
-- Run `npm run docs` 
-- Add the `md` filename to `vuepress.config.ts` e.g. `/guides/std/MyGuide.md`, 
-- Run `npm run dev`, have a look to make sure you're guide is rendering correctly
+- 安装 [Jupyter](https://jupyter.org/install) 这样可以转换 notebooks
+- 将你的 `.ipynb` 放在 `guides`文件夹目录下
+- 运行 `npm run docs` 
+- 添加 `md` 文件 `vuepress.config.ts`中， 比如. `/guides/std/MyGuide.md`, 
+- 运行 `npm run dev`, 检查一下以确保您的指南正确呈现
 
 ## 项目概览
-It's built with [VuePress V2](https://v2.vuepress.vuejs.org/guide/getting-started.html) which is currently in beta, the main configuration comes from [vuepresss.config.ts](vuepress.config.ts), while [vuepress.client.ts](vuepress.client.ts) contains client-side configuration like redirects to keep old social media links alive, the css and static images can be modified in [.vuepress/public](.vuepress/public) and [.vuepress/styles](.vuepress/styles)
 
-The homepage comes from [index.md](index.md), there is some custom Vue code I've taken from https://nushell.sh to generate the blog links in [components](components), and to generate the tables in [guides/index.md](guides/index.md).
+它是用目前处于测试阶段的 [VuePress V2](https://v2.vuepress.vuejs.org/guide/getting-started.html) 构建的，主要配置来自 [vuepresss.config.ts](vuepress.config.ts)，而 [vuepress.client.ts](vuepress.client.ts) 包含客户端配置，例如重定向以保持旧的社交媒体链接处于活动状态，CSS 和静态图像可以是在 [.vuepress/public](.vuepress/public) 和 [.vuepress/styles](.vuepress/styles) 中修改。
 
-The syntax highlighting comes from shiki which is what VS Code uses, the definition for the Mojo language is in [syntax/mojo.tmLanguage.json](syntax/mojo.tmLanguage.json) thanks to [crisadamo](https://github.com/crisadamo/mojo-lang-syntax).
+主页来自[index.md](index.md)，我从https://nushell.sh获取了一些自定义Vue代码，用于在[components]中生成博客链接，并在[guides/index.md](guides/index.md)中生成表格。
+
+语法高亮来自 VS Code 使用的 shiki，Mojo 语言的定义位于[syntax/mojo.tmLanguage.json](syntax/mojo.tmLanguage.json) 中，感谢 [crisadamo](https://github.com/crisadamo/mojo-lang-syntax)。
 
 ## 贡献
-- Thanks very much to [gautam-e](github.com/gautam-e) and [StitchyPie](https://github.com/StitchyPie) for contributing guides
-- And thanks to all the corrections from [pp123456](github.com/pp123456), [futureofworld](github.com/futureofworld) and [Alex19578](github.com/pp123456)
+- 非常感谢 [gautam-e](https://github.com/gautam-e)和 [StitchyPie](https://github.com/StitchyPie) 提供的指南 
+- 感谢 [pp123456](https://github.com/pp123456)、[futureofworld](https://github.com/futureofworld) 和 [Alex19578](https://github.com/pp123456) 的所有更正
